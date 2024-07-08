@@ -1,0 +1,54 @@
+body {
+  max-width: 600px;
+  margin: auto;
+}
+
+h1,
+h2 {
+  font-family: "Abel", sans-serif;
+}
+
+p {
+  font-family: "Aclonica", sans-serif;
+}
+
+main > div {
+  border-bottom: 2px solid gray;
+}
+
+.item {
+  margin-bottom: 0;
+  font-size: 125%;
+}
+
+.quantity {
+  margin-top: 0;
+  color: gray;
+}
+
+span {
+  font-weight: bold;
+  font-size: x-large;
+  margin-left: auto;
+  float: right;
+}
+
+header {
+  margin-bottom: 50px;
+}
+
+#result p {
+  font-size: 125%;
+}
+
+main {
+  background-color: lightgray;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    margin: 10px;
+  }
+}
